@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.njust.mapper.UserMapper">
+
+
+    <select id="queryByLogin" resultType="User" parameterType="User">
+        select * from users where uname=#{uname} and password=#{password};
+    </select>
+
+    <insert id="addUser" parameterType="User">
+        insert into users values (#{uname},#{password},#{phone},#{email},#{address})
+    </insert>
+
+    <update id="updateUser" parameterType="User">
+        update users set password=#{password},phone=#{phone},
+        email=#{email},address=#{address} where uname=#{uname}
+    </update>
+
+    <delete id="deleteUser" parameterType="String">
+        delete from users where uname=#{uname}
+    </delete>
+
+    <select id="queryUser" parameterType="String" resultType="User">
+        select * from users where uname=#{uname}
+    </select>
+
+</mapper>

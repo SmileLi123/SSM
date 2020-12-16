@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.njust.mapper.AppraiseMapper">
+
+
+    <insert id="addAppraise" parameterType="Appraise">
+        insert into appraise values (NULL,#{oid},#{uname} ,#{sname},#{cname} ,#{grade} ,#{info}) ;
+    </insert>
+
+
+    <select id="queryAllAppraiseByCommodity" resultType="Appraise" parameterType="int">
+        select * from appraise where oid in (select oid from orders where cid=#{cid})
+    </select>
+
+    <select id="queryAppraiseByUser" resultType="Appraise" parameterType="String">
+        select * from appraise where uname=#{uname}
+    </select>
+
+    <select id="queryById" resultType="Appraise" parameterType="int">
+        select * from appraise where oid=#{oid};
+    </select>
+
+</mapper>

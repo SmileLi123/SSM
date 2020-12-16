@@ -1,0 +1,48 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/gz_shop/lib/commons-pool-1.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gz_shop/lib/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gz_shop/lib/spring-webmvc-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gz_shop/lib/aopalliance-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gz_shop/lib/spring-jdbc-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gz_shop/lib/spring-instrument-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gz_shop/lib/spring-oxm-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gz_shop/lib/spring-context-support-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gz_shop/lib/log4j-1.2.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gz_shop/lib/spring-test-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gz_shop/lib/spring-aspects-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gz_shop/lib/spring-aop-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gz_shop/lib/aspectjweaver-1.9.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gz_shop/lib/commons-dbcp-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gz_shop/lib/spring-context-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gz_shop/lib/jackson-databind-2.11.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gz_shop/lib/spring-expression-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gz_shop/lib/spring-instrument-tomcat-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gz_shop/lib/mybatis-spring-1.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gz_shop/lib/ojdbc10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gz_shop/lib/spring-messaging-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gz_shop/lib/standard-1.1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gz_shop/lib/jackson-mapper-asl-1.9.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gz_shop/lib/mybatis-3.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gz_shop/lib/spring-webmvc-portlet-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gz_shop/lib/mysql-connector-java-5.1.47.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gz_shop/lib/spring-tx-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gz_shop/lib/spring-orm-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gz_shop/lib/jackson-core-2.11.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gz_shop/lib/spring-web-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gz_shop/lib/sqljdbc4-4.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gz_shop/lib/spring-beans-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gz_shop/lib/aspectjrt-1.9.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gz_shop/lib/jackson-annotations-2.11.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gz_shop/lib/spring-jms-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gz_shop/lib/jstl-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gz_shop/lib/javax.servlet-api-3.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gz_shop/lib/spring-websocket-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gz_shop/lib/spring-core-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gz_shop/lib/fastjson-1.2.55.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

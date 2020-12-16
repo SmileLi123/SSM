@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.njust.mapper.ShopMapper">
+
+
+    <select id="queryByLogin" resultType="Shop" parameterType="Shop">
+        select * from shop where sname=#{sname} and password=#{password};
+    </select>
+
+    <insert id="addShop" parameterType="Shop">
+        insert into shop values (#{sname},#{password},#{sphone},#{describtion});
+    </insert>
+
+    <update id="updateShop" parameterType="Shop">
+        update shop set password=#{password},sphone=#{sphone},describtion=#{describtion} where sname=#{sname}
+    </update>
+
+    <delete id="deleteShop" parameterType="String">
+        delete from shop where sname=#{sname}
+    </delete>
+
+    <select id="queryBySname" resultType="Shop" parameterType="String">
+        select * from shop where sname=#{sname};
+    </select>
+
+</mapper>

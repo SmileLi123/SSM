@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.njust.mapper.ScartMapper">
+
+    <select id="queryByUname" parameterType="String" resultType="Scart">
+        select * from scart where uname=#{uname};
+    </select>
+
+    <select id="queryByid" parameterType="int" resultType="Scart">
+        select *  from scart where gid=#{gid}
+    </select>
+
+    <select id="queryBycid" parameterType="int" resultType="Scart">
+        select *  from scart where cid=#{cid}
+    </select>
+
+    <update id="updateScart" parameterType="Scart">
+        update scart set num=#{num} where gid=#{gid}
+    </update>
+
+    <delete id="deleteScart" parameterType="int">
+        DELETE from scart WHERE gid=#{gid}
+    </delete>
+
+    <insert id="addScart" parameterType="Scart">
+        insert into scart values (NULL,#{uname},#{cid},#{sname},#{cname},#{price},#{num})
+    </insert>
+
+</mapper>

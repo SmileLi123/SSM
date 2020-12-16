@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.njust.mapper.CommodityMapper">
+
+
+    <insert id="addCommodity" parameterType="Commodity">
+        insert into commodity values (NULL ,#{sname},#{cname},#{caname},#{price},#{describtion});
+    </insert>
+
+    <update id="updateCommodity" parameterType="Commodity" >
+        update commodity set cname=#{cname}, caname=#{caname},price=#{price}, describtion=#{describtion} where cid=#{cid};
+    </update>
+
+    <delete id="deleteCommodityById" parameterType="int" >
+        delete from commodity where cid=#{cid}
+    </delete>
+
+    <select id="queryByCid" parameterType="int" resultType="Commodity">
+        select * from commodity where cid=#{cid};
+    </select>
+
+    <select id="queryAllCommodity" resultType="Commodity">
+        select * from commodity
+    </select>
+
+    <select id="queryAllCommodityByShop"  parameterType="String" resultType="Commodity">
+        select * from commodity where sname=#{sname};
+    </select>
+
+    <select id="queryByName" parameterType="String" resultType="Commodity">
+        select * from commodity where cname like '%${cname}%';
+    </select>
+
+</mapper>

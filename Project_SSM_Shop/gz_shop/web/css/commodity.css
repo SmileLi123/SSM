@@ -1,0 +1,22 @@
+select{
+    width: 100%;
+    margin-top: 0;
+    font-size: 14px;
+    height: 36px;
+    border: 2px solid lightgray;
+    color: gray;
+    font-weight: 300;
+    font-family: 'Muli', sans-serif;
+    border-radius: 4px;
+}
+td{
+    text-align: center;
+}
+u:hover{
+    color: red;
+}
+input[type=“radio”] {
+    height: 22px;
+    width: 22px;
+    margin-right: 10px;
+}
